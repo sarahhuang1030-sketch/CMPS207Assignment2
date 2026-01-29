@@ -23,29 +23,58 @@
 
 // export default pool;
 
+// import sql from "mssql";
+
+// const config = {
+//   server: process.env.AZURE_SQL_SERVER,
+//   database: process.env.AZURE_SQL_DATABASE,
+//   user: process.env.AZURE_SQL_USER,
+//   password: process.env.AZURE_SQL_PASSWORD,
+//   port: Number(process.env.AZURE_SQL_PORT || 1433),
+//   options: {
+//     encrypt: true,              // required for Azure SQL
+//     trustServerCertificate: false,
+//   },
+//   pool: {
+//     max: 10,
+//     min: 0,
+//     idleTimeoutMillis: 30000,
+//   },
+// };
+
+// let poolPromise;
+
+// export function getPool() {
+//   if (!poolPromise) {
+//     poolPromise = sql.connect(config);
+//   }
+//   return poolPromise;
+// }
+
+// export { sql };
+
 import sql from "mssql";
 
-const config = {
-  server: process.env.AZURE_SQL_SERVER,
-  database: process.env.AZURE_SQL_DATABASE,
-  user: process.env.AZURE_SQL_USER,
-  password: process.env.AZURE_SQL_PASSWORD,
-  port: Number(process.env.AZURE_SQL_PORT || 1433),
-  options: {
-    encrypt: true,              // required for Azure SQL
-    trustServerCertificate: false,
-  },
-  pool: {
-    max: 10,
-    min: 0,
-    idleTimeoutMillis: 30000,
-  },
-};
+function req(name) {
+  const v = process.env[name];
+  if (!v) throw new Error(`${name} is missing (check GitHub Secrets / Azure App Settings)`);
+  return v;
+}
 
 let poolPromise;
 
 export function getPool() {
   if (!poolPromise) {
+    const config = {
+      server: req("AZURE_SQL_SERVER"),
+      database: req("AZURE_SQL_DATABASE"),
+      user: req("AZURE_SQL_USER"),
+      password: req("AZURE_SQL_PASSWORD"),
+      port: Number(process.env.AZURE_SQL_PORT || 1433),
+      options: { encrypt: true, trustServerCertificate: false },
+      pool: { max: 10, min: 0, idleTimeoutMillis: 30000 },
+    };
+
     poolPromise = sql.connect(config);
   }
   return poolPromise;
