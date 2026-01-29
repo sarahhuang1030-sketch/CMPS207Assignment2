@@ -28,10 +28,11 @@ jobs:
           npm install
           npm run build --if-present
            env:
-              DB_SERVER: ${{ secrets.DB_SERVER }}
-              DB_NAME: ${{ secrets.DB_NAME }}
-              DB_USER: ${{ secrets.DB_USER }}
-              DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+              AZURE_SQL_SERVER: ${{ secrets.AZURE_SQL_SERVER }}
+              AZURE_SQL_DATABASE: ${{ secrets.AZURE_SQL_DATABASE }}
+              AZURE_SQL_USER: ${{ secrets.AZURE_SQL_USER }}
+              AZURE_SQL_PASSWORD: ${{ secrets.AZURE_SQL_PASSWORD }}
+              AZURE_SQL_PORT: ${{ secrets.AZURE_SQL_PORT }}
           npm run test --if-present
 
       - name: Upload artifact for deployment job
@@ -69,3 +70,4 @@ jobs:
           package: .
 
           
+
