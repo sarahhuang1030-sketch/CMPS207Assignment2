@@ -44,6 +44,9 @@ jobs:
           cp package.json deploy/package.json
           cp package-lock.json deploy/package-lock.json
           cp next.config.* deploy/ 2>/dev/null || true
+          cp tailwind.config.* deploy/ 2>/dev/null || true
+          cp postcss.config.* deploy/ 2>/dev/null || true
+          cp eslint.config.* deploy/ 2>/dev/null || true
           cp -R lib deploy/lib 2>/dev/null || true
 
       - name: Upload artifact for deployment job
@@ -79,4 +82,5 @@ jobs:
           app-name: hellostudents
           slot-name: Production
           package: deploy
+
 
