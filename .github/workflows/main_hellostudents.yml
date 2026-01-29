@@ -24,16 +24,17 @@ jobs:
           node-version: '24.x'
 
       - name: npm install, build, and test
+        env:
+          AZURE_SQL_SERVER: ${{ secrets.AZURE_SQL_SERVER }}
+          AZURE_SQL_DATABASE: ${{ secrets.AZURE_SQL_DATABASE }}
+          AZURE_SQL_USER: ${{ secrets.AZURE_SQL_USER }}
+          AZURE_SQL_PASSWORD: ${{ secrets.AZURE_SQL_PASSWORD }}
+          AZURE_SQL_PORT: ${{ secrets.AZURE_SQL_PORT }}
         run: |
           npm install
           npm run build --if-present
-           env:
-              AZURE_SQL_SERVER: ${{ secrets.AZURE_SQL_SERVER }}
-              AZURE_SQL_DATABASE: ${{ secrets.AZURE_SQL_DATABASE }}
-              AZURE_SQL_USER: ${{ secrets.AZURE_SQL_USER }}
-              AZURE_SQL_PASSWORD: ${{ secrets.AZURE_SQL_PASSWORD }}
-              AZURE_SQL_PORT: ${{ secrets.AZURE_SQL_PORT }}
           npm run test --if-present
+
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -70,4 +71,5 @@ jobs:
           package: .
 
           
+
 
