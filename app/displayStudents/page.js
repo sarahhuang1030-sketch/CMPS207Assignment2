@@ -1,7 +1,7 @@
 // import Image from "next/image";
 import Link from "next/link";
 //let unitDemos = ["1", "2", "3", "4", "5", "6"];
-import UsersList from "./user-list/page";
+import UsersList from "../user-list/page";
 import { getAllUsers } from "../lib/students";
 export default async function Home() {
   // return (
