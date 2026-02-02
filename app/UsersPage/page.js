@@ -46,7 +46,7 @@ export default function UsersPage({ students }) {
     last_name: /^[a-zA-Z\u00C0-\u00FF'-]{2,}$/,
     phone: /^[\d\s\-\(\)]{10}$/,
     email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-    year: /^y[1-4]$/,
+    year: /^y[1-4]$/i,
     postalcode: /^[A-Z]\d[A-Z]\s?\d[A-Z]\d$/i,
   };
 
@@ -353,18 +353,21 @@ export default function UsersPage({ students }) {
               <div>
                 <label className={labelClass}>Year *</label>
                 <input
-                  onChange={(e) => {
-                    setYear(e.target.value);
-                    validate("year", e.target.value);
-                  }}
-                  onBlur={() => validate("year", year)}
-                  name="year"
-                  type="text"
-                  required
-                  className={inputClass}
+                    name="year"
+                    type="text"
+                    required
+                    className={inputClass + " uppercase"}
+                    value={year}
+                    onChange={(e) => {
+                      const val = e.target.value.toUpperCase();
+                      setYear(val);
+                      validate("year", val);
+                    }}
+                    onBlur={() => validate("year", year)}
                 />
                 {errors.year && <p className={errorClass}>{errors.year}</p>}
               </div>
+
 
               {/* Profile Picture */}
               <div className="md:col-span-2">
