@@ -1,17 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+First adding .env.local file
+
+The required environment variables are in the submission dialog area
 
 First, run the development server:
 
 ```bash
+npm install
+
+then..
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -20,11 +20,20 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Learn More -- Deploye to Azure
+Here are the steps that we took
+- set up Database in azure
+- set up Blob Storage in azure
+- make sure both run in next.js
+- make the project in github
+- connect the web app in azure through github
 
-To learn more about Next.js, take a look at the following resources:
+## Local Development
+Copy `.env.example` to `.env.local` and fill in the values.
+If you see an Azure SQL firewall error, ask the team lead to whitelist your IP.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Issues that we encountered
+- The biggest chanllenge that we faced was when deploying on azure through github
+- Beucase we are using tailwind, there are some configuration issues
+- At first, when we deployed the style didn't show up
+- Then we had to make some changes in the setting to make the style work
