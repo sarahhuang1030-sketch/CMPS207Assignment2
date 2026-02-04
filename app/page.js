@@ -13,7 +13,7 @@ export default async function HomePage() {
             {/* Header */}
             <div className="mb-6 flex items-center justify-between">
                 <h1 className="text-3xl font-bold text-slate-900">
-                    Students
+                    New Students
                 </h1>
 
                 <Link
