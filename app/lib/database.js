@@ -1,14 +1,9 @@
-// // establish connection to the mysql db
+// Legacy MySQL connection setup (kept commented out for reference)
+// This was used before switching to Azure SQL Server
 
-// //import library for connection from installed package
-// //database.js
 // import { createPool } from "mysql2/promise";
 
-// //console.log(process.env.DB_PASSWORD);
-
-// //create connection
 // const pool = createPool({
-//   //uri: process.env.MYSQL_PUBLIC_URL,
 //   host: process.env.DB_HOST || "localhost",
 //   user: process.env.DB_USER || "root",
 //   password: process.env.DB_PASSWORD || "Sarah923*",
@@ -23,6 +18,10 @@
 
 // export default pool;
 
+// ------------------------------------------------------------
+// Legacy Azure SQL configuration (inline, replaced by safer version below)
+// ------------------------------------------------------------
+
 // import sql from "mssql";
 
 // const config = {
@@ -32,7 +31,7 @@
 //   password: process.env.AZURE_SQL_PASSWORD,
 //   port: Number(process.env.AZURE_SQL_PORT || 1433),
 //   options: {
-//     encrypt: true,              // required for Azure SQL
+//     encrypt: true,
 //     trustServerCertificate: false,
 //   },
 //   pool: {
@@ -53,31 +52,61 @@
 
 // export { sql };
 
+// ------------------------------------------------------------
+// Current Azure SQL Server connection (environment-validated)
+// ------------------------------------------------------------
+
 import sql from "mssql";
 
+// Helper to enforce required environment variables at startup
 function req(name) {
-  const v = process.env[name];
-  if (!v) throw new Error(`${name} is missing (check GitHub Secrets / Azure App Settings)`);
-  return v;
+    const v = process.env[name];
+
+    // Fail fast with a clear message if a required variable is missing
+    if (!v) {
+        throw new Error(
+            `${name} is missing (check GitHub Secrets / Azure App Settings)`
+        );
+    }
+    return v;
 }
 
+// Cached connection promise (singleton) to avoid opening multiple pools
 let poolPromise;
 
+// Returns a shared SQL connection pool
 export function getPool() {
-  if (!poolPromise) {
-    const config = {
-      server: req("AZURE_SQL_SERVER"),
-      database: req("AZURE_SQL_DATABASE"),
-      user: req("AZURE_SQL_USER"),
-      password: req("AZURE_SQL_PASSWORD"),
-      port: Number(process.env.AZURE_SQL_PORT || 1433),
-      options: { encrypt: true, trustServerCertificate: false },
-      pool: { max: 10, min: 0, idleTimeoutMillis: 30000 },
-    };
+    // Create the pool only once per server runtime
+    if (!poolPromise) {
+        const config = {
+            server: req("AZURE_SQL_SERVER"),
+            database: req("AZURE_SQL_DATABASE"),
+            user: req("AZURE_SQL_USER"),
+            password: req("AZURE_SQL_PASSWORD"),
 
-    poolPromise = sql.connect(config);
-  }
-  return poolPromise;
+            // Azure SQL default port
+            port: Number(process.env.AZURE_SQL_PORT || 1433),
+
+            // Azure SQL requires encryption
+            options: {
+                encrypt: true,
+                trustServerCertificate: false,
+            },
+
+            // Connection pool tuning
+            pool: {
+                max: 10,
+                min: 0,
+                idleTimeoutMillis: 30000,
+            },
+        };
+
+        // Initialize and cache the pool promise
+        poolPromise = sql.connect(config);
+    }
+
+    return poolPromise;
 }
 
+// Export sql so callers can access types (sql.VarChar, etc.)
 export { sql };
