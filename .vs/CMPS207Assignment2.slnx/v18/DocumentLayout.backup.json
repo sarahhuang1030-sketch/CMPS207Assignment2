@@ -1,0 +1,378 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\api\\students\\[email]\\route.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\api\\students\\[email]\\route.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\.env.local||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env.local||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\form\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\form\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\globals.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\globals.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\UsersPage\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\UsersPage\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\user-list\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\user-list\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\user-card\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\user-card\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\students\\[email]\\StudentDetailClient.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\students\\[email]\\StudentDetailClient.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\students\\[email]\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\students\\[email]\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\lib\\students.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\lib\\students.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\lib\\database.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\lib\\database.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\lib\\action.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\lib\\action.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\displayStudents\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\displayStudents\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\components\\StudentList.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\StudentList.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\components\\StatsCard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\StatsCard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\api\\students\\route.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\api\\students\\route.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\api\\blob-sas\\route.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\api\\blob-sas\\route.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\.github\\workflows\\main_hellostudents.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\main_hellostudents.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env.local",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\.env.local",
+              "RelativeDocumentMoniker": ".env.local",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\.env.local",
+              "RelativeToolTip": ".env.local",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-04T01:26:18.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "page.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\page.js",
+              "RelativeDocumentMoniker": "app\\page.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\page.js",
+              "RelativeToolTip": "app\\page.js",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:24:26.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "layout.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\layout.js",
+              "RelativeDocumentMoniker": "app\\layout.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\layout.js",
+              "RelativeToolTip": "app\\layout.js",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:24:04.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "globals.css",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\globals.css",
+              "RelativeDocumentMoniker": "app\\globals.css",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\globals.css",
+              "RelativeToolTip": "app\\globals.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T01:23:12.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "page.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\UsersPage\\page.js",
+              "RelativeDocumentMoniker": "app\\UsersPage\\page.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\UsersPage\\page.js",
+              "RelativeToolTip": "app\\UsersPage\\page.js",
+              "ViewState": "AgIAAKUBAAAAAAAAAAAwwOEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:22:19.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "page.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\user-list\\page.js",
+              "RelativeDocumentMoniker": "app\\user-list\\page.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\user-list\\page.js",
+              "RelativeToolTip": "app\\user-list\\page.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:22:04.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "page.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\form\\page.js",
+              "RelativeDocumentMoniker": "app\\form\\page.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\form\\page.js",
+              "RelativeToolTip": "app\\form\\page.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:17:58.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "route.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\api\\students\\[email]\\route.js",
+              "RelativeDocumentMoniker": "app\\api\\students\\[email]\\route.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\api\\students\\[email]\\route.js",
+              "RelativeToolTip": "app\\api\\students\\[email]\\route.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:14:10.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "page.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\user-card\\page.js",
+              "RelativeDocumentMoniker": "app\\user-card\\page.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\user-card\\page.js",
+              "RelativeToolTip": "app\\user-card\\page.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:21:46.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentDetailClient.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\students\\[email]\\StudentDetailClient.js",
+              "RelativeDocumentMoniker": "app\\students\\[email]\\StudentDetailClient.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\students\\[email]\\StudentDetailClient.js",
+              "RelativeToolTip": "app\\students\\[email]\\StudentDetailClient.js",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAwwCwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:20:48.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "page.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\students\\[email]\\page.js",
+              "RelativeDocumentMoniker": "app\\students\\[email]\\page.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\students\\[email]\\page.js",
+              "RelativeToolTip": "app\\students\\[email]\\page.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:20:28.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "students.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\lib\\students.js",
+              "RelativeDocumentMoniker": "app\\lib\\students.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\lib\\students.js",
+              "RelativeToolTip": "app\\lib\\students.js",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:19:54.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "database.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\lib\\database.js",
+              "RelativeDocumentMoniker": "app\\lib\\database.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\lib\\database.js",
+              "RelativeToolTip": "app\\lib\\database.js",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:19:15.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "action.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\lib\\action.js",
+              "RelativeDocumentMoniker": "app\\lib\\action.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\lib\\action.js",
+              "RelativeToolTip": "app\\lib\\action.js",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:18:38.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "page.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\displayStudents\\page.js",
+              "RelativeDocumentMoniker": "app\\displayStudents\\page.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\displayStudents\\page.js",
+              "RelativeToolTip": "app\\displayStudents\\page.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:17:30.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentList.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\components\\StudentList.js",
+              "RelativeDocumentMoniker": "app\\components\\StudentList.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\components\\StudentList.js",
+              "RelativeToolTip": "app\\components\\StudentList.js",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAwwHEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:16:06.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StatsCard.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\components\\StatsCard.js",
+              "RelativeDocumentMoniker": "app\\components\\StatsCard.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\components\\StatsCard.js",
+              "RelativeToolTip": "app\\components\\StatsCard.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:15:14.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "route.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\api\\students\\route.js",
+              "RelativeDocumentMoniker": "app\\api\\students\\route.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\api\\students\\route.js",
+              "RelativeToolTip": "app\\api\\students\\route.js",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:14:47.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "route.js",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\api\\blob-sas\\route.js",
+              "RelativeDocumentMoniker": "app\\api\\blob-sas\\route.js",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\app\\api\\blob-sas\\route.js",
+              "RelativeToolTip": "app\\api\\blob-sas\\route.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-04T01:12:45.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "main_hellostudents.yml",
+              "DocumentMoniker": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\.github\\workflows\\main_hellostudents.yml",
+              "RelativeDocumentMoniker": ".github\\workflows\\main_hellostudents.yml",
+              "ToolTip": "C:\\Jonathan\\Jonathan OOSD\\Project 2\\CMPS207Assignment2\\.github\\workflows\\main_hellostudents.yml",
+              "RelativeToolTip": ".github\\workflows\\main_hellostudents.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-02-04T01:12:34.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
